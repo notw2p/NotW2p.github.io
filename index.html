@@ -4,62 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>W2p</title>
-  <style>
-    * { box-sizing: border-box; }
-    html, body { height: 100%; margin: 0; }
-    body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #ffffff;
-      font-family: Arial, Helvetica, sans-serif;
-      color: #000; /* default text color black */
-    }
-    .center {
-      text-align: center;
-    }
-    .big {
-      font-size: 96px;   /* שנה כאן אם תרצה גדול/קטן יותר */
-      font-weight: 800;
-      margin: 0;
-      color: #000;       /* שחור מוחלט */
-      line-height: 0.9;
-      letter-spacing: 0.5px;
-    }
-    .small {
-      margin-top: 10px;
-      font-size: 16px;   /* גודל הטקסט הקטן מתחת */
-      color: #000;
-      opacity: 0.85;
-      text-transform: none;
-      letter-spacing: 0.06em;
-    }
 
-    /* התאמה למובייל */
-    @media (max-width: 480px) {
-      .big { font-size: 48px; }
-      .small { font-size: 14px; }
-    }
-  </style>
+  <!-- Google Font (Inter). אם לא רוצים, אפשר להסיר את השורה הזו -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <!-- קישור ל‑CSS חיצוני -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="center">
+  <main class="center" role="main" aria-label="Main">
     <h1 class="big">W2p</h1>
     <div class="small">notW2p</div>
-  </div>
-</body>
-</html>
 
-
-
- <!-- Roblox -->
-      <a class="roblox-btn"
-         href="https://www.roblox.com/users/828302668/profile"
-         target="_blank"
-         rel="noopener noreferrer"> 
-        Roblox
-      </a>
-    </div>
-  </div>
+    <!-- קישור להצטרפות/לפרופיל Roblox -->
+    <a class="roblox-join"
+       href="https://www.roblox.com/users/828302668/profile"
+       target="_blank"
+       rel="noopener noreferrer">
+      Join on Roblox
+    </a>
+  </main>
 </body>
 </html>
