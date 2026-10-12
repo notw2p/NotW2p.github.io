@@ -26,13 +26,13 @@ body{
 }
 
 /* Big title */
-.big{
-  font-size:96px;
-  font-weight:800;
-  margin:0;
-  line-height:0.9;
-  letter-spacing:0.5px;
-  color:var(--text);
+
+.playwrite-ar-<uniquifier> {
+  font-family: "Playwrite AR", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 }
 
 /* Small subtitle */
