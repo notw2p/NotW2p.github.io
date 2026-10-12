@@ -1,8 +1,8 @@
 :root{
   --bg: #ffffff;       /* page background */
   --text: #000000;     /* main text */
-  --muted: #666666;    /* small text */
-  --link: #065fd4;     /* link color */
+  --muted: #000000;    /* small text */
+  --link: #000000;     /* link color */
 }
 
 /* Base */
